@@ -27,16 +27,12 @@ const App = () => {
 };
 ```
 
----
-
 ## Hook API
 
 - useSocketEmit : return `emit` function of socket.io-client `io` object
 - useSocketOn: return `on` function of socket.io-client `io` object.
 - useSocketOff: return `emit` function of socket.io-client `io` object.
 - useSocket: return `io` object, you can use this hook to access other `io` object method.
-
----
 
 ## Example
 
